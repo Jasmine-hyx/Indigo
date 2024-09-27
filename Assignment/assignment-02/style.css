@@ -1,0 +1,31 @@
+body{
+    background-color: skyblue;
+    color:green;
+}
+h1:hover{
+    color:red;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-weight: bolder ;
+    background-color: antiquewhite;
+    text-decoration: underline;
+}
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: brown;
+}
+.wrapper>p{
+    color: lemonchiffon;
+}
+.wrapper li{
+    font-style: oblique;
+    font-size: smaller;
+    text-decoration: overline;
+    color:gray
+}
+

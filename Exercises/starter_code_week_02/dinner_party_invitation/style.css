@@ -1,0 +1,18 @@
+body{
+    background-color:lemonchiffon
+}
+
+h1:hover{
+    color:red
+}
+.wrapper li{
+    background-color:pink
+}
+p{
+    color:green;
+}
+
+.wrapper>p {
+    color:orange
+}
+
