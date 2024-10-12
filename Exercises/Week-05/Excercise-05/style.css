@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100;
+}
+body {
+    background-color:palegoldenrod;
+    min-height: 100vh;
+}
+
+header,
+footer,
+main {
+    padding: 20px;
+    border: 1px solid black;
+    color: #141414;
+}
+
+header {
+    height: 20vh;
+}
+
+main {
+    height: 60vh;
+}
+
+.invite-container{
+    padding: 20px;
+
+}
+
+.section {
+    padding-bottom: 30px;
+}
+.light {
+    color:lightgrey;
+}
+
+.small {
+    font-size: 10px;
+}
+.dark {
+    font-weight: bold;
+}
+.big {
+    font-size: 50px;
+}
