@@ -31,6 +31,10 @@ main, footer {
     display: grid;
     grid-template-columns: 40fr 40fr;
 }
+
+.content-container{
+    position: center;
+}
 .P1{
     grid-column-start: 1;
     grid-column-end: 2;
@@ -58,7 +62,6 @@ main, footer {
     vertical-align: top;
     height: auto;
     margin-top: 0%;
-    margin-block-start:1em;
     width: 600px;
     
 
