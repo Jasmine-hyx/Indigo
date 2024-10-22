@@ -32,9 +32,6 @@ main, footer {
     grid-template-columns: 40fr 40fr;
 }
 
-.content-container{
-    position: center;
-}
 .P1{
     grid-column-start: 1;
     grid-column-end: 2;
