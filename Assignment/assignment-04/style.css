@@ -32,6 +32,8 @@ main, footer {
     grid-template-columns: 40fr 40fr;
 }
 .P1{
+    grid-column-start: 1;
+    grid-column-end: 2;
     font-size: 15px;
     display: flex;
     flex-direction: column;
