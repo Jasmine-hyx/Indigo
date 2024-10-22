@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-html,body {
-    height: 100%;
-}
 
 header {
     height: 8vh;
@@ -33,12 +30,15 @@ color: antiquewhite;
 font-weight: bold;
 }
 
+body{
+    display: block;
+}
 
 body{
     background-color: skyblue;
     color:green;
-    margin-left: 50px;
-    margin-right: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 h1:hover{
     color:red;
