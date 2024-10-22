@@ -30,6 +30,7 @@ main, footer {
 .grid-container {
     display: grid;
     grid-template-columns: 40fr 40fr;
+    grid-gap: 25px;
 }
 
 .P1{
