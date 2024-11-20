@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
     height: 100%;
 }
 
@@ -18,36 +17,41 @@ body {
 .grid-container {
     margin: 20px;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
+    grid-template-columns: 1fr; 
+    gap: 20px
 }
 
 figure {
+    margin: 0; 
     border: 1px solid blue;
     border-radius: 0.75em;
+    overflow: hidden; 
+    padding: 20px;
 }
 
 figcaption {
-    padding: 20px ;
+    padding: 20px;
+    text-align: center;
 }
+
 
 img {
-    width: 100%;
-    object-fit: cover;
-    border-top-right-radius: 0.75em;
-    border-top-left-radius: 0.75em;
+    display: block; 
+    height: 250px;
+    width: 100%; 
+    object-fit: cover; 
 }
 
-/* tablet Version */
-@media only screen and (min-width : 768px) {
-    .grid-container{
-        grid-template-columns: repeat(2, 1fr);
+/* Tablet Version */
+@media only screen and (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); 
     }
 }
 
 /* Desktop Version */
-@media only screen and (min-width : 1024px) {
-    .grid-container{
-        grid-template-columns: repeat(4, 1fr);
-    }
+@media only screen and (min-width: 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr); 
+ }
 }
