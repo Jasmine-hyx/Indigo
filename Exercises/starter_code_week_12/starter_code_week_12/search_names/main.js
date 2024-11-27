@@ -28,3 +28,20 @@ const people = [
     { name: "yadri" },
     { name: "zack" }
 ];
+
+
+const searchBar=document.querySelector('.search');
+const searchNames=(event)=>{
+    const searchString=event.target.value.toLowerCase();
+}
+console.log('line 57', searchString);
+
+const filteredPeople=people.filter(person => {
+    return person.name.toLowerCase().includes(searchString)
+})
+console.log('line 63', filteredPeople);
+displayfilter(filteredPeople)
+
+
+
+searchBar.addEventListener('keyup', searchNames)
