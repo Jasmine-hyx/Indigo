@@ -1,18 +1,26 @@
-console.log("This works");
+console.log('this works')
 
+// get the element with the id of 'special'
 let myElement = document.getElementById('special');
-console.log(myElement);
+console.log(myElement); 
 
+// applied the color blue to the text
 myElement.style.color = 'blue';
-console.log('Color of the text:', myElement.style.color);
+console.log('color of the text', myElement.style.color)
+console.log('grab the text:   ', myElement.innerText)
+console.log('list the class:   ', myElement.classList)
 
-myElement.innerHTML='<h2>Hey!</h2>'
+// change the text
+myElement.innerText = 'Hey!'
 
-//create a new element 
-const listItem=document.createElement('li');
+// step 1. create new element
+const listItem = document.createElement('li');
 
+// step 2. add class list
 listItem.classList.add('list-item');
 
-listItem.innerText='I am a list item';
+// step 2a. add text
+listItem.innerText = 'I am a list item';
 
+// step 3. append to DOM
 myElement.appendChild(listItem);
