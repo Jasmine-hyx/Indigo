@@ -20,7 +20,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         if (!matchFound) {
-            alert("No matching category found.");
+            const NotFound = document.getElementById("Not-Found").classList.remove("hidden");
+        }
+        else{
+            const NotFound = document.getElementById("Not-Found").classList.add("hidden");
         }
     });
 

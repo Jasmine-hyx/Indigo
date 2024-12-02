@@ -29,6 +29,15 @@ figure {
     padding: 20px;
 }
 
+figure h3{
+    text-align: center;
+    padding: 15px;
+}
+
+figure img{
+    padding: 15px;
+}
+
 figcaption {
     padding: 20px;
     text-align: center;
@@ -91,4 +100,8 @@ img {
 
 figure {
     display: none; /* Hide initially; shown dynamically */
+}
+
+.hidden{
+    display: none;
 }
